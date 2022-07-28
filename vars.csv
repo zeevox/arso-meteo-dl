@@ -1,0 +1,59 @@
+pid,name,s,si,en,unit,weatherbox,aggregation
+102,t2m_7,povp. T 7 h,povprečna temperatura zraka na 2 m ob 7 h (°C),average air temperature at 2 m at 7 a.m. (°C),°C,,mean
+103,t2m_14,povp. T 14 h,povprečna temperatura zraka na 2 m ob 14 h (°C),average air temperature at 2 m at 2 p.m. (°C),°C,,mean
+104,t2m_21,povp. T 21 h,povprečna temperatura zraka na 2 m ob 21 h (°C),average air temperature at 2 m at 9 p.m. (°C),°C,,mean
+101,t2m_klima,povp. T,povprečna temperatura zraka na 2 m (°C),average air temperature at 2 m (°C),°C,mean C,mean
+105,tmax,povp. max T,povprečna maksimalna temperatura na 2 m (°C),average maximum temperature at 2 m (°C),°C,high C,mean
+108,tmax_abs,abs. max T,absolutna maksimalna temperature na 2 m (°C),absolute maximum temperature at 2 m (°C),°C,record high C,max
+109,tmax_abs_dan,datum abs. max T,datum z absolutno maksimalno temperaturo na 2 m,date with absolute maximum temperature at 2 m,,,
+106,tmin,povp. min T,povprečna minimalna temperatura na 2 m (°C),average minimum temperature at 2 m (°C),°C,low C,mean
+110,tmin_abs,abs. min T,absolutna minimalna temperature na 2 m (°C),absolute minimum temperature at 2 m (°C),°C,record low C,min
+111,tmin_abs_dan,datum abs. min T,datum z absolutno minimalno temperaturo na 2 m,the date with the absolute minimum temperature at 2 m,,,
+107,tmin_5cm,povp. min T na 5cm,povprečna minimalna temperatura na 5cm (°C),average minimum temperature at 5cm (°C),°C,,mean
+112,tmin_5cm_abs,abs. min T na 5cm,absolutna minimalna temperature na 5cm (°C),absolute minimum temperature at 5cm (°C),°C,,min
+113,tmin_5cm_abs_dan,datum abs. min T na 5cm,datum z absolutno minimalno temperaturo na 5cm,date with absolute minimum temperature at 5cm,,,
+120,rh_7,povp. rel. vla. 7 h,povprečna relativna vlaga ob 7 h (%),average relative humidity at 7 a.m. (%),%,,mean
+121,rh_14,povp. rel. vla. 14 h,povprečna relativna vlaga ob 14 h (%),average relative humidity at 2 p.m. (%),%,afthumidity,mean
+122,rh_21,povp. rel. vla. 21 h,povprečna relativna vlaga ob 21 h (%),average relative humidity at 9 p.m. (%),%,,mean
+158,rh_klima,povp. rel. vla.,povprečna relativna vlaga (%),average relative humidity (%),%,humidity,mean
+124,rh_min,abs. min rel. vla.,absolutna minimalna relativne vlage (%),absolute minimum relative humidity (%),%,,min
+125,rh_min_dan,datum abs. min rel. vla.,datum z absolutno minimalno relativno vlago,date with absolute minimum relative humidity,,,
+130,oblacnost_7,povp. oblač. 7 h,povprečna oblačnost ob 7 h (pokritost neba v %),average cloud cover at 7 a.m. (sky coverage in %),%,,mean
+131,oblacnost_14,povp. oblač. 14 h,povprečna oblačnost ob 14 h (pokritost neba v %),average cloud cover at 2 p.m. (sky coverage in %),%,,mean
+132,oblacnost_21,povp. oblač. 21 h,povprečna oblačnost ob 21 h (pokritost neba v %),average cloud cover at 9 p.m. (sky coverage in %),%,,mean
+133,oblacnost,povp. oblačnost,povprečna oblačnost,average cloud cover,%,,mean
+97,p_7,povp. tlak 7 h,povprečen zračni tlak ob 7 h (hPa),average air pressure at 7 a.m. (hPa),hPa,,mean
+98,p_14,povp. tlak 14 h,povprečen zračni tlak ob 14 h (hPa),average air pressure at 2 p.m. (hPa),hPa,,mean
+99,p_21,povp. tlak 21 h,povprečen zračni tlak ob 21 h (hPa),average air pressure at 9 p.m. (hPa),hPa,,mean
+96,p_klima,povp. tlak,povprečen zračni tlak (hPa),average air pressure (hPa),hPa,,mean
+155,veter_klima,povp. veter,povprečna hitrost vetra (m/s),average wind speed (m/s),m/s,,mean
+129,trajanje_so,trajanje sonca,trajanje sončnega obsevanja (h),duration of solar radiation (h),h,sun,mean
+136,padavine_klima,količina padavin,količina padavin (mm),amount of precipitation (mm),mm,precipitation mm,mean
+137,padavine_max,max padavine,maksimalna dnevna količina padavin (mm),maximum daily rainfall (mm),mm,,max
+138,padavine_max_dan,datum max padavine,datum z maksimalno dnevno količino padavin,the date with the maximum daily rainfall,,,
+140,visinaodeje_max,max višina snega,maksimalna višina snežne odeje (cm),maximum snow cover height (cm),cm,snow depth cm,mean
+141,visinaodeje_max_dan,datum max višine snega,datum z maksimalno višino snežne odeje,the date with the maximum height of the snow cover,,,
+114,stdni_tmin_pod_10,št. mrzlih dni,število mrzlih dni (minimalna temperatura ≤ -10 °C),number of cold days (minimum temperature ≤ -10 °C),,,mean
+115,stdni_tmax_pod0,št. ledenih dni,število ledenih dni (maksimalna temperatura < 0 °C),number of icy days (maximum temperature < 0 °C),,,mean
+116,stdni_tmin_pod0,št. hladnih dni,število hladnih dni (minimalna temperatura < 0 °C),number of cold days (minimum temperature < 0 °C),,,mean
+117,stdni_tmax_nad25,št. toplih dni,število toplih dni (maksimalna temperatura ≥ 25 °C),number of warm days (maximum temperature ≥ 25 °C),,,mean
+118,stdni_tmax_nad30,št. vročih dni,število vročih dni (maksimalna temperatura ≥ 30 °C),number of hot days (maximum temperature ≥ 30 °C),,,mean
+119,stdni_tmin_nad20,št. toplih noči,število toplih noči (minimalna temperatura ≥ 20 °C),number of warm nights (minimum temperature ≥ 20 °C),,,mean
+142,stdni_mocanvet,št. dni z močanim vetrom,število dni z močnim vetrom (> 6 bf),number of days with strong wind (> 6 bf),,,mean
+143,stdni_viharnivet,št. dni z viharnim vetrom,število dni z viharnim vetrom (> 8 bf),number of days with gale force winds (> 8 bf),,,mean
+152,stdni_nevihta,št. dni z nevihto,število dni z nevihto,number of stormy days,,,mean
+144,stdni_pad_nad01,št. dni s padavinami >0.1mm,število dni s padavinami nad 0.1 mm,number of days with precipitation above 0.1 mm,,precipitation days,mean
+145,stdni_pad_nad1,št. dni s padavinami >1 mm,število dni s padavinami nad 1 mm,number of days with precipitation above 1 mm,,,mean
+146,stdni_pad_nad10,št. dni s padavinami >10 mm,število dni s padavinami nad 10 mm,number of days with precipitation above 10 mm,,,mean
+147,stdni_pad_nad20,št. dni s padavinami >20 mm,število dni s padavinami nad 20 mm,number of days with precipitation above 20 mm,,,mean
+148,stdni_dez_nad01,št. dni z dežjem >0.1 mm,število dni z dežjem nad 0.1 mm,number of days with rain above 0.1 mm,,rain days,mean
+150,stdni_dez_s_snegom,št. dni z dežjem in snegom >0.1 mm,število dni z dežjem in snegom nad 0.1 mm,number of days with rain and snow above 0.1 mm,,,mean
+149,stdni_sneg_nad01,št. dni s snegom >0.1 mm,število dni s snegom nad 0.1 mm,number of days with snow above 0.1 mm,,snow days,mean
+139,stdni_sneznaod_7,št. dni s snežno odejo,število dni s snežno odejo,number of days with snow cover,,,mean
+134,stdni_jasni,št. jasnih dni,število jasnih dni (oblačnost < 20%),number of clear days (cloudiness < 20%),,,mean
+135,stdni_oblacni,št. oblačnih dni,število oblačnih dni (oblačnost > 80%),number of cloudy days (cloudiness > 80%),,,mean
+153,stdni_megla,št. dni z meglo,število dni z meglo,number of days with fog,,,mean
+151,stdni_toca,št. dni s točo,število dni s točo,number of days with hail,,,mean
+126,stdni_rhpod30,št. dni z vlago <30%,število dni z relativno vlago pod 30%,number of days with relative humidity below 30%,,,mean
+127,stdni_rhpod50,št. dni z vlago <50%,število dni z relativno vlago pod 50%,number of days with relative humidity below 50%,,,mean
+128,stdni_rhnad80,št. dni z vlago >80%,število dni z relativno vlago nad 80%,number of days with relative humidity above 80%,,,mean
