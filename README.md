@@ -6,6 +6,8 @@ The web interface for retrieving these data is available [here](https://meteo.ar
 
 Furthermore, methods are provided for aggregating the data and presenting it as a [Wikipedia Weatherbox](https://en.wikipedia.org/wiki/Template:Weather_box), for example the one added to the Wikipedia page for [the weather station at Kredarica](https://en.wikipedia.org/wiki/Triglav_Lodge_at_Kredarica#Weather_station) was generated using this program.
 
+![Wikipedia Weatherbox for the weather station at Kredarica](https://github.com/ZeevoX/arso-meteo-dl/raw/master/images/weatherbox-kredarica.png)
+
 ## Updating the list of stations
 
 The `locations_all.txt` file stores data for all stations for which data is available in the ARSO digital archives. It includes metadata about the station as well as the months that the station was operational. This file has been included in the git repository, as fetching all this data requires a non-negligible amount of time depending on your internet connection, and in many use cases the most recents months' data may not be necessary. Should you want the latest available station data, simply delete the `locations_all.txt` file and the list of weather stations will be redownloaded from the meteo.si website the next time that the program is run.
